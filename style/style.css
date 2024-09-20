@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Estilos del header */
+
+header{
+    background-color: #142074;
+    color: #FFD700;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header img.header_imagen{
+    width: 25%;
+}
+
+/* Estilo del nav */
+nav{
+    align-items: center;
+    background-color: #D2B48C;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav img.nav_imagen{
+    height: 6rem;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #142074;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    color: #B22222;
+    text-decoration: underline;
+}
+
+/* Estilos del main */
+
+main{
+    background-color: #fff;
+    color: #2E2E2E;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 3rem 2rem;
+}
+
+main section.tripulacion{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+main section div.tripulacion_integrante{
+    background-color: #D2B48C;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+}
+
+main section img.tripulacion_integrante_foto{
+    height: 7rem;
+    width: 7rem;
+}
+
+section div.tripulacion_integrante{
+
+}
+
+/* Estilos del footer */
+
+footer{
+    color: #fff;
+    background-color: #0d1449;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+}
