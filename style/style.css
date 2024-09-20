@@ -89,8 +89,12 @@ main section img.tripulacion_integrante_foto{
     width: 7rem;
 }
 
-section div.tripulacion_integrante{
+section div h1.tripulacion_integrante_nombre{
+    padding: 1rem 0;
+}
 
+section div ul.tripulacion_integrante_descripcion{
+    padding: 1rem 2rem;
 }
 
 /* Estilos del footer */
